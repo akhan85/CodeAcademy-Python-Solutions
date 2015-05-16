@@ -1,0 +1,15 @@
+#Python 11/11
+#PygLatin
+
+pyg = 'ay' #String that's added to the end of a user selected word.
+
+original = raw_input('Enter a word:') # Variable original asks for stores a user selected word.
+
+if len(original) > 0 and original.isalpha(): #if statement checks to make sure a word is typed and ensures that all entries are letters. 
+    word = original.lower() #Variable word takes the original word and ensures all letters are switched to lower case.
+    first = word[0] #first is a variable that stores the first letter from word stored in variable word
+    new_word = word + first + pyg #new_word is a variable that concatenates everything together.
+    new_word = new_word[1:len(new_word)] # new_word then takes the 2nd letter all the way to the last letter and prints it. 
+    print new_word
+else: #if the initial if statement's criteria is not met - see line 5 - then the program prints...
+    print 'empty' # empty

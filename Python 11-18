@@ -1,0 +1,11 @@
+#Lists and Functions
+# List manipulation in functions 11/18
+
+n = [3, 5, 7]
+# Add your function here
+
+def list_extender(lst):
+    lst.append(9)
+    return lst
+
+print list_extender(n)

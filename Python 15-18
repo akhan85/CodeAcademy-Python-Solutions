@@ -1,0 +1,11 @@
+# Lists and Functions
+# Iterating over a list in a function 15/18
+
+n = [3, 5, 7]
+
+def total(numbers):
+    result = 0
+    
+    for item in numbers:
+        result += item
+    return result

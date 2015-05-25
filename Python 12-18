@@ -1,0 +1,10 @@
+# Lists and Functions
+# Printing out a List item by item in a function 12/18
+
+n = [3, 5, 7]
+
+def print_list(x):
+    for i in range(0, len(x)):
+        print x[i]
+
+print print_list(n)
